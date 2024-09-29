@@ -1,0 +1,140 @@
+ /*to remove default margine*/
+*{      
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EEE;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: cadetblue;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+header{
+
+}
+.profile-image{
+    width: 100px;
+    height: 120px;
+    border: 3px solid whitesmoke;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1, h2,h3,h6{
+    color: #134B70;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: #98DED9;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+    
+}
+.div-clear{
+    clear:both;
+}
+hr{
+    border: solid whitesmoke 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none; 
+}
+
+/*----------------------------------
+Profile Section Start
+-----------------------------------*/
+#profile-section{
+
+}
+.content{
+    margin-bottom: 30px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left;
+    text-align: justify;
+
+}
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/*----------------------------------
+Education Section Start
+-----------------------------------*/
+h4,h5{
+    font-weight: bold; 
+}
+.edu-left{
+    float: left;
+    width: 45%;
+}
+.edu-right{
+    float: right;
+    width: 45%;
+}
+
+/*----------------------------------
+Reference Section Start
+-----------------------------------*/
+.ref-left{
+    float: left;
+    width: 45%;
+    text-align: left;
+}
+.ref-right{
+    float: right;
+    width: 45%;
+    text-align: left;
+}
+.common-hr2{
+    border: solid whitesmoke 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+/*----------------------------------
+Footer Start
+-----------------------------------*/
+.bottom-container{
+    background-color:#16325B;
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom-container a:hover{
+    color: gray;
+}
+.bottom-container p{
+    color: whitesmoke;
+    margin-top: 20px;
+}
